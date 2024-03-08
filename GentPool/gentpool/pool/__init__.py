@@ -9,3 +9,6 @@ from .vanilla_template import *
 from .openai_memory_template import *
 from .vanilla-ziyu import *
 from .scholar-ziyu import *
+from .jarvis007 import *
+from .jarvis-scholar007 import *
+from .jarvis-scholar-pdf007 import *

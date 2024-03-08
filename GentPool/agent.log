@@ -1,0 +1,25 @@
+INFO:root:Creating Config from file: ./gentpool/pool/jarvis-scholar-pdf007/agent.yaml
+INFO:root:Starting to load configuration from ./gentpool/pool/jarvis-scholar-pdf007/agent.yaml
+INFO:root:Successfully loaded configuration from ./gentpool/pool/jarvis-scholar-pdf007/agent.yaml
+INFO:root:--------------------
+INFO:root:[green]Welcome to Gentopia!
+INFO:root:--------------------
+INFO:root:[green]User: 
+INFO:root:jarvis-scholar-pdf007 is thinking...
+INFO:root:Done
+INFO:root:[blue]jarvis-scholar-pdf007: 
+INFO:root:{"name":"search_single_paper", "arguments":{"title":"Attention Is All You Need","top_k":1}}
+
+INFO:root:Calling function: search_single_paper ...
+INFO:scholarly:Getting https://scholar.google.com/scholar?hl=en&q=Attention%20Is%20All%20You%20Need
+INFO:httpx:HTTP Request: GET https://scholar.google.com/scholar?hl=en&q=Attention%20Is%20All%20You%20Need "HTTP/1.1 200 OK"
+INFO:root:Done
+INFO:root:--------------------
+INFO:root:{'title': 'Attention is all you need', 'author': ['A Vaswani', 'N Shazeer', 'N Parmar'], 'pub_year': '2017', 'venue': 'Advances in neural …', 'abstract': 'to attend to all positions in the decoder up to and including that position. We need to prevent   We implement this inside of scaled dot-product attention by masking out (setting to −∞)', 'url': 'https://proceedings.neurips.cc/paper/7181-attention-is-all', 'citation': 111704}
+INFO:root:--------------------
+INFO:root:jarvis-scholar-pdf007 is thinking...
+INFO:root:Done
+INFO:root:[blue]jarvis-scholar-pdf007: 
+INFO:root:The paper "Attention Is All You Need" was published in 2017 in the Advances in Neural Proceedings. You can access the PDF of the paper from the following link: [Attention Is All You Need - PDF Link](https://proceedings.neurips.cc/paper/7181-attention-is-all)
+INFO:root:Done
+INFO:root:[green]User: 
